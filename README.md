@@ -40,4 +40,8 @@ Download the latest stable release from
 
 and add it to your `java` process as `-javaagent:/path/to/class-monkey-1.7.1-assembly.jar`. You must not rename the file or it will not work.
 
-Specifically for scala usage, you can add this flag to your `SBT_OPTS`.
+Specifically for scala usage, you can add this flag to your `SBT_OPTS` or add this to your project's `.sbtopts`
+
+```
+-J-javaagent:/home/fommil/.sbt/class-monkey-1.7.1-assembly.jar
+```
